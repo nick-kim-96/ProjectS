@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\yeosa\Desktop\ProjectS
+CMake Error at C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
+  Could NOT find Curses (missing: CURSES_LIBRARY CURSES_INCLUDE_PATH)
+Call Stack (most recent call first):
+  C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
+  C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/FindCurses.cmake:246 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/yeosa/Desktop/ProjectS/cmake-build-debug/CMakeFiles/CMakeOutput.log".
